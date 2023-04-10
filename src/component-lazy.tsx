@@ -1,0 +1,9 @@
+import { count } from "./count";
+
+export default () => {
+  return (
+    <div className="App">
+      <div className="card">lazy component count is {count.value}</div>
+    </div>
+  );
+};
